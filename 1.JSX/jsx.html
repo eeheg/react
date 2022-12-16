@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="root"></div>
+  </body>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script type="text/babel">
+
+    const root = document.getElementById("root");
+
+    const Span = () => { return <span>글자</span>; };
+
+    function click() { console.log("클릭"); };
+
+    const Btn = () => {
+      return (
+        <button style={{ color: "red" }} onClick={click}>클릭</button>
+      );
+    };
+
+    const Container = () => {
+      return (
+        <div>
+          <Span />
+          <Btn />
+          <Btn />
+          <Btn />
+          <Btn />
+          <Btn />
+          <Btn />
+        </div>
+      );
+    };
+    ReactDOM.render(<Container />, root);
+
+
+  </script>
+</html>
+
+// const add = function (v1, v2) {v1+v2}
+// add(1,2)
+
+// const add = function (v1, v2) {return v1+v2}
+// add(1,2)
+// 3
+
+// const add = (v1, v2) => v1+v2
+// add(1,2)
+// 3
+
+// const add = (v1, v2) => (v1+v2)
+// add(1,2)
+// 3
