@@ -1,0 +1,85 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "day": 1,
+      "eng": "ant",
+      "kor": "개미",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "eng": "bird",
+      "kor": "새",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "day": 2,
+      "eng": "cat",
+      "kor": "고양이",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "day": 2,
+      "eng": "eagle",
+      "kor": "독수리",
+      "isDone": false
+    },
+    {
+      "id": 5,
+      "day": 3,
+      "eng": "frog",
+      "kor": "개구리",
+      "isDone": true
+    },
+    {
+      "id": 6,
+      "day": 3,
+      "eng": "goose",
+      "kor": "거위",
+      "isDone": false
+    },
+    {
+      "day": "4",
+      "eng": "melon",
+      "kor": "메론",
+      "isDone": false,
+      "id": 7
+    },
+    {
+      "day": "4",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false,
+      "id": 8
+    },
+    {
+      "day": "4",
+      "eng": "banana",
+      "kor": "바나나",
+      "isDone": false,
+      "id": 9
+    }
+  ]
+}
